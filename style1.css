@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 12px 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 0 23px;
+    font-weight: 800;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    margin: 0 23px;
+    align-items: center;
+}
+
+ul > li {
+    list-style: none;
+    margin: 0 13px;
+    cursor: pointer;
+}
+
+ul > li:hover{
+    color: white;
+
+}
+
+table, td, tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px 13px;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 23px auto;
+}
+
+h1, h2, h3 {
+    margin: 23px 0;
+}
+
+.btn{
+    padding: 8px 17px;
+    background: black;
+    color: white;
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 8px;
+    margin: 25px 0;
+    cursor: pointer;
+}
+
+.btnsm{ 
+    padding: 8px 17px;
+    background: black;
+    color: white;
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+
+img{
+    cursor: pointer;
+    position: relative;
+    bottom: 7px;
+    width: 15px;
+    height: 13px;
+}
+
+#alert{
+    display: none;
+}
+.password-manager {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 0 15px 1px #ddd;
+    max-width: 600px;
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+}
+
+.password-manager h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.password-manager input {
+    display: block;
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.password-manager input:focus {
+    outline: none;
+}
+
+.password-list {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.password-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 0.7rem;
+    border-radius: 10px;
+    margin-bottom: 0.7rem;
+    transition: all 0.3s ease;
+}
+
+.password-item:last-child {
+    margin-bottom: 0;
+}
+
+.password-item:hover {
+    background-color: #f3f3f3;
+}
+
+.password-item span {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.password-item button {
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    background-color: #5785D6;
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;
+}
+
+.password-item button:hover {
+    background-color: #2F5789;
+}
+
+.password-item button:active {
+    transform: translateY(2px);
+}
+.home-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #1A535C;
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .home-button:hover {
+    transform: translateY(-2px);
+    background-color: #154653;
+  }
+  
+  .home-button:active {
+    transform: translateY(0);
+  }
+  
+  .home-button span {
+    display: flex;
+    align-items: center;
+  }
+  
+  .home-button before,
+  .home-button after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 2px;
+    background-color:rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: all 0.3s;
+  }
+  
+  .home-button:hover before,
+  .home-button:hover after {
+    width: 10px;
+    height: 10px;
+  }
+  
