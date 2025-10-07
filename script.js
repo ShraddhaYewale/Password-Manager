@@ -98,3 +98,4 @@ copyEl.addEventListener("click", () => {
     alert("Password copied to clipboard");
 
 });
+
