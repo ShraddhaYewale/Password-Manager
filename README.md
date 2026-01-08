@@ -3,7 +3,7 @@
 This is a simple **Password Generator web application** built to help users create strong and secure passwords quickly. The project focuses on ease of use and clean design while demonstrating core frontend development skills.
 
 🔗 Live Demo:  
-https://poetic-dasik-f9776b.netlify.app/
+https://passwordguardsecure.netlify.app/
 
 ---
 
