@@ -5,6 +5,11 @@ This is a simple **Password Generator web application** built to help users crea
 🔗 Live Demo:  
 https://passwordguardsecure.netlify.app/
 
+
+<img width="651" height="668" alt="image" src="https://github.com/user-attachments/assets/2f513fc0-e2d0-4a28-ab60-f2ed4b36c1a6" />
+<img width="863" height="675" alt="image" src="https://github.com/user-attachments/assets/30ddd1c3-0bdf-446d-ba5f-5f298ced5850" />
+
+
 ---
 
 ## About the Project
